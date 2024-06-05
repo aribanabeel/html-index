@@ -1,423 +1,611 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
 <style>
-.main-header{
-    display: flex;
-    justify-content: safe;
-    gap: 350px;
-}
-.logo-header{
-    display: flex;
-}
-.menu-header{
-    display: flex;
-    justify-content: space-around;
-    ;
-}
-.menu-header ul{
-    list-style: none;
-    display: flex;
-    gap: 25px;
-}
-.about-us{
-    display: flex;
-    justify-content: space-around;
-    font-size: 20px;
-}
-.Services{
-    display: flex;
-    justify-content: space-around;
-    font-size: 20px;
-}
-.clients{
-    font-size: 20px;
-}
-.join-us{
-    font-size: 20px;
-}
-.contact{
-    font-size: 20px;
-    text-decoration-color: aliceblue;
-}
-.heading{
-    font-size: 27px; 
-}
-.main-heading{
-    color: darkblue;
-    display: flex;
-    justify-content: space-around;
-    font-style: inherit;
-}
-.sub-heading{
-    color: rgb(69, 68, 68);
-}
-.image{
-    display: flex;
-    justify-content: flex-end;
-}
-.button-2{
-    display: flex;
-    width: 500px;
-    height: 50px;
-}
-.statement{
-  text-align: center;
-}
-.line{
-    color: darkblue;
-    font-style: inherit;
-   
-}
-.small-line{
-    color:rgb(69, 68, 68);
-    font-style: inherit;
-    font-size: 20px;
-}
-.main-blocks{ 
-    display: flex;
-    justify-content: space-around;
-    background-color: rgb(245, 240, 240);
-   
-}
-.block-1{
-   border-color: black;
-}
-.learn{
-    font-style:initial;
-    color:rgb(184, 15, 15);
-}
-.main-block2{
-    display: flex;
-    justify-content: space-around; 
-    background-color: rgb(245, 240, 240); 
-}
-.block{
-    font-style: inherit;
-    color: rgb(69, 68, 68);
-}
-.block-heading{
-    color: darkblue;
-}
-.block2{
-    font-style: inherit;
-    color: rgb(69, 68, 68);
-}
-.explore{
-    text-align: center;
-    font-style: inherit;
-    font-size: large;
-    color:  rgb(184, 15, 15);
-}
-.clients{
-    text-align: center;
-}
-.clients-heading{
-    font-style: normal;
-    color: rgb(184, 15, 15);
-}
-.client-line{
-    color: darkblue;
-    font-style: inherit;
-}
-.question{
-    display: flex;
-    justify-content: space-around;
-}
-.question-line{
-    font-style: inherit;
-    font-size: larger;
-    color: darkblue;
-}
-.sub-question{
-    font-style: inherit;
-    color:  rgb(69, 68, 68);
-}
-.button-question{
-    display: flex;
-    width: 700px;
-    height: 50px;
-}
-.tell-urself{
-    background-color: rgb(137, 157, 137);
-    text-align: center;
-}
-.last-heading{
-    font-style: inherit;
-    font-size: larger;
-    color: darkblue;
-}
-.last-subheading{
-    font-style: inherit;
-    color:rgb(69, 68, 68) ;
-}
-.last-button{
-    justify-content: center;
-    display: flex;
-    text-align: center;
-    height: 50px;
-}
-.main-footer{
-    display: flex;
-    justify-content: space-around;
-    background-color: rgb(39, 39, 48);
-}
-.footer-list1{
-    justify-content: space-around;
-    display: flex;
-    color: aliceblue;
-gap: 25px;
-}
-.footer-list1 ul{
-    list-style: none;
-    display: flex;
-    
-}
-.footer-list2{
-    justify-content: space-around;
-    display: flex;
-    color: aliceblue;
-    gap: 25px;
-}
-.footer-list2 ul{
-    list-style: none;
-    display: flex;
-    
-}
-.footer-list3{
-    justify-content: space-around;
-    display: flex;
-    color: aliceblue;
-    gap: 25px;
-}
-.footer-list3 ul{
-    list-style: none;
-    display: flex;
-    
-}
-.footer-list4{
-    display: flex;
-    justify-content: space-around;
-    color: aliceblue;
-    gap: 25px;
-}
-.footer-list4 ul{
-    
-    list-style: none;
-    display: flex;
-}
-.list{
-    display: flex;
-    justify-content: space-around;
-}
-.ll0{
-    color: rgb(125, 209, 209);
-}
-.copyright{
-    display: flex;
-    justify-content: space-around;
-   
-}
+    .main-header {
+        display: flex;
+        justify-content: safe;
+        gap: 350px;
+    }
 
+    .logo-header {
+        display: flex;
+    }
+
+    .menu-header {
+        display: flex;
+        justify-content: space-around;
+        ;
+    }
+
+    .menu-header ul {
+        list-style: none;
+        display: flex;
+        gap: 25px;
+    }
+
+    .about-us {
+        display: flex;
+        justify-content: space-around;
+        font-size: 20px;
+    }
+
+    .Services {
+        display: flex;
+        justify-content: space-around;
+        font-size: 20px;
+    }
+
+    .clients {
+        font-size: 20px;
+    }
+
+    .join-us {
+        font-size: 20px;
+    }
+
+    .contact {
+        font-size: 20px;
+        color: black;
+        border: 2px solid rgb(137, 31, 31);
+        background-color: aliceblue;
+        box-shadow: 2px 6px 10px rgb(139, 38, 47);
+    }
+
+    .heading {
+        font-size: 27px;
+    }
+
+    .main-heading {
+        color: darkblue;
+        display: flex;
+        justify-content: space-around;
+        font-style: inherit;
+    }
+
+    .sub-heading {
+        color: rgb(69, 68, 68);
+    }
+
+    .image {
+        display: flex;
+        justify-content: flex-end;
+    }
+
+    .button-2 {
+        display: flex;
+        text-align: center;
+        width: 110px;
+        height: 50px;
+        color: black;
+        border: 2px solid rgb(137, 31, 31);
+        background-color: rgb(231, 233, 236);
+        box-shadow: 2px 6px 10px rgb(139, 38, 47);
+    
+    }
+
+    .statement {
+        text-align: center;
+    }
+
+    .line {
+        color: darkblue;
+        font-style: inherit;
+
+    }
+
+    .small-line {
+        color: rgb(69, 68, 68);
+        font-style: inherit;
+        font-size: 20px;
+    }
+
+    .main-blocks {
+        display: flex;
+        justify-content: space-around;
+        background-color: rgb(245, 240, 240);
+
+    }
+
+    .block-1 {
+        border-color: black;
+    }
+
+    .learn {
+        font-style: initial;
+        color: rgb(184, 15, 15);
+    }
+
+    .main-block2 {
+        display: flex;
+        justify-content: space-around;
+        background-color: rgb(245, 240, 240);
+    }
+
+    .block {
+        font-style: inherit;
+        color: rgb(69, 68, 68);
+        border: 10px solid rgb(235, 228, 228);
+        background-color: rgb(235, 228, 228) ;
+    }
+
+    .block-heading {
+        color: darkblue;
+    }
+
+    .block2 {
+        font-style: inherit;
+        color: rgb(69, 68, 68);
+        border: 10px solid rgb(235, 228, 228);
+        background-color: rgb(235, 228, 228) ;
+    }
+
+    .explore {
+        text-align: center;
+        font-style: inherit;
+        font-size: large;
+        color: rgb(184, 15, 15);
+    }
+
+    .clients {
+        text-align: center;
+    }
+
+    .clients-heading {
+        font-style: normal;
+        color: rgb(184, 15, 15);
+    }
+
+    .client-line {
+        color: darkblue;
+        font-style: inherit;
+    }
+
+    .question {
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .question-line {
+        font-style: inherit;
+        font-size: larger;
+        color: darkblue;
+    }
+
+    .sub-question {
+        font-style: inherit;
+        color: rgb(69, 68, 68);
+    }
+
+    .button-question {
+        display: flex;
+        width: 700px;
+        height: 50px;
+    }
+
+    .tell-urself {
+        background-color: rgb(137, 157, 137);
+        text-align: center;
+    }
+
+    .last-heading {
+        font-style: inherit;
+        font-size: larger;
+        color: darkblue;
+    }
+
+    .last-subheading {
+        font-style: inherit;
+        color: rgb(69, 68, 68);
+    }
+
+    .last-button {
+        justify-content: center;
+        display: flex;
+        text-align: center;
+        height: 50px;
+    }
+
+    .main-footer {
+        display: flex;
+        justify-content: space-around;
+        background-color: rgb(39, 39, 48);
+    }
+
+    .footer-list1 {
+        justify-content: space-around;
+        display: flex;
+        color: aliceblue;
+        gap: 25px;
+    }
+
+    .footer-list1 ul {
+        list-style: none;
+        display: flex;
+
+    }
+
+    .footer-list2 {
+        justify-content: space-around;
+        display: flex;
+        color: aliceblue;
+        gap: 25px;
+    }
+
+    .footer-list2 ul {
+        list-style: none;
+        display: flex;
+
+    }
+
+    .footer-list3 {
+        justify-content: space-around;
+        display: flex;
+        color: aliceblue;
+        gap: 25px;
+    }
+
+    .footer-list3 ul {
+        list-style: none;
+        display: flex;
+
+    }
+
+    .footer-list4 {
+        display: flex;
+        justify-content: space-around;
+        color: aliceblue;
+        gap: 25px;
+    }
+
+    .footer-list4 ul {
+
+        list-style: none;
+        display: flex;
+    }
+
+    .list {
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .ll0 {
+        color: rgb(125, 209, 209);
+    }
+
+    .copyright {
+        display: flex;
+        justify-content: space-around;
+
+    }
 </style>
+
 <body>
     <!-- header of website -->
     <section>
-        <header> 
+        <header>
             <form action="loginpage.html">
-            <div class="login">
-                <details>
-                    <summary><button>Login</button></summary>
-                    <a href="./loginpage.html"></a>
-                </details>
-            </div> </form>
+                <div class="login">
+                    <details>
+                        <summary><button>Login</button></summary>
+                        <a href="./loginpage.html"></a>
+                    </details>
+                </div>
+            </form>
             <br>
             <br>
             <br>
-         <div class="main-header">
-            <div class="logo-header"><img src="https://www.intelliscence.com/wp-content/uploads/2023/10/Final-Logo-Intellisccence@4x.png" width="250px" alt="logo"></div> 
-            <div class="menu-header">
-                <ul>
-                    <div class="about-us"><li>About Us</li></div>
-                    <div class="Services"><li> <label for="Services">Services</label><select name="Services" id="Services"></select></li>
-                    </div>
-                    <div class="clients"><li>Our Clients</li></div>
-                    <div class="join-us"><li>Join Us</li></div>
-                    <div class="contact"><li><button>Contact Us</button></li></div>
-                </ul>
+            <div class="main-header">
+                <div class="logo-header"><img
+                        src="https://www.intelliscence.com/wp-content/uploads/2023/10/Final-Logo-Intellisccence@4x.png"
+                        width="250px" alt="logo"></div>
+                <div class="menu-header">
+                    <ul>
+                        <div class="about-us">
+                            <li>About Us</li>
+                        </div>
+                        <div class="Services">
+                            <li> <label for="Services">Services</label><select name="Services" id="Services"></select>
+                            </li>
+                        </div>
+                        <div class="clients">
+                            <li>Our Clients</li>
+                        </div>
+                        <div class="join-us">
+                            <li>Join Us</li>
+                        </div>
+                        <div >
+                            <li><button class="contact">Contact Us</button></li>
+                        </div>
+                    </ul>
+                </div>
             </div>
-         </div>  
         </header>
     </section>
     <!-- 2nd section  -->
     <section>
-        <body>
-            <div class="main-heading">
-             <div class="heading"><h1>Tranform your ideas <br> to great products and services</h1>
-            <div class="sub-heading"><h4>Modern web-based solutions</h4></div><div class="button-2"><button>Lets connect!</button></div> </div>
-            <div class="image"><img src="https://intelliscence.com/wp-content/uploads/2019/06/img-40.png" width="400px" alt="image1"></div>
+        <div class="main-heading">
+            <div class="heading">
+                <h1>Tranform your ideas <br> to great products and services</h1>
+                <div class="sub-heading">
+                    <h4>Modern web-based solutions</h4>
+                </div>
+                <div ><button class="button-2">Lets connect!</button></div>
             </div>
-        </body>
+            <div class="image"><img src="https://intelliscence.com/wp-content/uploads/2019/06/img-40.png" width="400px"
+                    alt="image1"></div>
+        </div>
     </section>
     <!-- heading no 3 -->
     <section>
-    <body>
-        <div class="statement">
-         <div class="line"><h1> We design & build digital experiences that deliver results.</h1></div>
-         <div class="small-line"><h5>As your Digital Transformation partner, we will be with you every step of the way – from initial <br> planning to delivery, and beyond</h5></div>
-        </div>
-        <!-- putting blocks information -->
-        <div class="main-blocks">
-        <div class="block"><img src="https://www.intelliscence.com/wp-content/uploads/2020/11/003-lightbulb.png" width="60px" alt="">
-            <div class="block-heading"><h4>Custom Software Development</h4></div>  <pre>
+
+        <body>
+            <div class="statement">
+                <div class="line">
+                    <h1> We design & build digital experiences that deliver results.</h1>
+                </div>
+                <div class="small-line">
+                    <h5>As your Digital Transformation partner, we will be with you every step of the way – from initial
+                        <br> planning to delivery, and beyond</h5>
+                </div>
+            </div>
+            <!-- putting blocks information -->
+            <div class="main-blocks">
+                <div class="block"><img src="https://www.intelliscence.com/wp-content/uploads/2020/11/003-lightbulb.png"
+                        width="60px" alt="">
+                    <div class="block-heading">
+                        <h4>Custom Software Development</h4>
+                    </div>
+                    <pre>
  We create numerous products for 
  organizations large and small across a
  variety of different sectors</pre> <br>
- <div class="learn"><p>Learn more></p></div></div>
-         <div class="block"><img src="https://www.intelliscence.com/wp-content/uploads/2020/11/050-diamond.png" width="60px" alt="">
-            <div class="block-heading"><h4>Web Applications</h4></div>  <pre>
+                    <div class="learn">
+                        <p>Learn more></p>
+                    </div>
+                </div>
+                <div class="block"><img src="https://www.intelliscence.com/wp-content/uploads/2020/11/050-diamond.png"
+                        width="60px" alt="">
+                    <div class="block-heading">
+                        <h4>Web Applications</h4>
+                    </div>
+                    <pre>
  We excel in delivering the best-suited 
  web solutions as per the custom needs 
  across varied industries </pre> <br>
- <div class="learn"><p>Learn more></p></div></div>
-         <div class="block"><img src="https://www.intelliscence.com/wp-content/uploads/2020/11/017-app.png" width="60px" alt="">
-            <div class="block-heading"><h4>Mobile Applications</h4></div>  <pre>
+                    <div class="learn">
+                        <p>Learn more></p>
+                    </div>
+                </div>
+                <div class="block"><img src="https://www.intelliscence.com/wp-content/uploads/2020/11/017-app.png"
+                        width="60px" alt="">
+                    <div class="block-heading">
+                        <h4>Mobile Applications</h4>
+                    </div>
+                    <pre>
  We’ll help you envision the concept,
  user-experience, as well as building a
  world-class mobile app that fits the
  purpose.</pre> <br>
-<div class="learn"> <p>Learn more></p></div></div>
-        </div>
-        <div class="main-block2">
-        <div class="block2"><img src="https://www.intelliscence.com/wp-content/uploads/2020/12/group.png" width="60px" alt=""> 
-       <div class="block-heading"><h4>Team Augmentation</h4></div>  <pre>
+                    <div class="learn">
+                        <p>Learn more></p>
+                    </div>
+                </div>
+            </div>
+            <br>
+            <br>
+            <br>
+
+            <div class="main-block2">
+                <div class="block2"><img src="https://www.intelliscence.com/wp-content/uploads/2020/12/group.png"
+                        width="60px" alt="">
+                    <div class="block-heading">
+                        <h4>Team Augmentation</h4>
+                    </div>
+                    <pre>
  Hire one or multiple talented resources
 from our seasoned pool with the control 
  over daily tasks management as per
  business demands.</pre> <br>
- <div class="learn">Learn more></div></div>
-          <div class="block2"><img src="https://www.intelliscence.com/wp-content/uploads/2020/12/video-player.png" width="60px" alt=""> 
-       <div class="block-heading"><h4>Animation</h4></div>  <pre>
+                    <div class="learn">Learn more></div>
+                </div>
+                <div class="block2"><img src="https://www.intelliscence.com/wp-content/uploads/2020/12/video-player.png"
+                        width="60px" alt="">
+                    <div class="block-heading">
+                        <h4>Animation</h4>
+                    </div>
+                    <pre>
  Want a snappy animation piece to excite
  your audience about your brand? We
  have all the animated video service
  solutions you can think of!
         </pre> <br>
-    <div class="learn">Learn more></div></div>
-             <div class="block2"><img src="https://www.intelliscence.com/wp-content/uploads/2020/12/bullhorn1.png" width="60px" alt=""> 
-           <div class="block-heading"><h4>Social Media Marketing</h4></div>  <pre>
+                    <div class="learn">Learn more></div>
+                </div>
+                <div class="block2"><img src="https://www.intelliscence.com/wp-content/uploads/2020/12/bullhorn1.png"
+                        width="60px" alt="">
+                    <div class="block-heading">
+                        <h4>Social Media Marketing</h4>
+                    </div>
+                    <pre>
  Through our social media strategy
  consulting expertise, we can give life to 
  your social media game, by aiming for
  the right target audience with engaging
  content.</pre> <br>
-                <div class="learn">Learn more></div></div>
-        </div>
-        <br>
-        <br>
-        <br>
-        <br>
-        <!-- explore sevices -->
-        <div class="explore"><h3>Explore more services></h3></div>
-        <br>
-        <br>
-        <br>
-        <br>
-        <!--clients  -->
-        <div class="clients">
-            <div class="clients-heading"><h4>Our Clients</h4></div>
-            <div class="client-line"><h1>We share our confidence and passion with.</h1></div>
-        </div>
-        <!-- company names -->
-         <div class="comapny-names"> <img src="https://www.intelliscence.com/wp-content/uploads/2020/11/honor.jpg" width="100px" alt=""> <img src="https://www.intelliscence.com/wp-content/uploads/2022/05/lakecitylogo-.png" width="100px" alt=""> <img src="https://www.intelliscence.com/wp-content/uploads/2022/05/peoplelogo.png" width="100px" alt=""> <img src="https://www.intelliscence.com/wp-content/uploads/2020/11/xinhua.jpg" width="100px" alt=""> <img src="https://www.intelliscence.com/wp-content/uploads/2020/11/netutils.jpg" width="100px" alt=""> <img src="https://www.intelliscence.com/wp-content/uploads/2022/05/mangla.png" width="100px" alt=""> <img src="https://www.intelliscence.com/wp-content/uploads/2020/11/pnip-1.jpg" width="100px" alt=""> <img src="https://www.intelliscence.com/wp-content/uploads/2020/11/spacelab.jpg" width="100px" alt=""> <img src="https://www.intelliscence.com/wp-content/uploads/2020/11/betterhomes.jpg" width="100px" alt=""> <img src="https://www.intelliscence.com/wp-content/uploads/2020/11/charcoal.jpg" width="100px" alt=""> <img src="https://www.intelliscence.com/wp-content/uploads/2020/11/genome.jpg" width="100px" alt=""><li><ion-icon name="arrow-forward-circle-outline"></ion-icon></li> 
-         </div>
-         <br>
-         <br>
-         <br>
-         <br>
-         <!-- 2nd last part  -->
-         <div class="question">
-            <div class="question-line"><h1>Need a talent to work for you directly?</h1>
-            <div class="sub-question"><p>We offer team augmentation services to get your things done right, from right now. Hire a <br>fully dedicated team, a talent that fits your business idea.</p></div> <div class="small-icons"><img src="https://www.intelliscence.com/wp-content/uploads/2020/11/mssql.png" width="70px" alt=""> <img src="https://www.intelliscence.com/wp-content/uploads/2020/11/python.png" width="70px" alt=""> <img src="https://www.intelliscence.com/wp-content/uploads/2020/11/laravel.png" width="70px" alt=""> <img src="https://www.intelliscence.com/wp-content/uploads/2020/11/mysql.png" width="70px" alt=""><img src="https://www.intelliscence.com/wp-content/uploads/2020/11/mongodb.png" width="70px" alt=""></div> <div class="button-question"><button>Discover More</button></div></div>
-            <div class="question-image"><img src="https://www.intelliscence.com/wp-content/uploads/2020/11/dedicatedteam.png" width="350px" alt=""></div>
-         </div>
-         <!-- tell bout urself -->
-         <div class="tell-urself">
-            <br>
-            <br>
-            <br>
-            <br>
-
-            <div class="last-heading"><h1>Tell us more about your project?</h1></div>
-            <div class="last-subheading"><p>Our expert will contact you to discuss your plans and goals</p></div><div class="last-button"><button>Lets Connect!</button></div>
- <br>
- <br>
- <br>
- <br>
- </div>
-         <!-- webite footer -->
-         <footer>
-<div class="main-footer">
- <br>
- <br>
- <br>
- <br>
-<br>
-
-<div class="footer-image"><img src="https://www.intelliscence.com/wp-content/uploads/2023/10/footer-logo-final@4x1.png" width="250px" alt=""></div>
-<div class="list">
-  <div class="footer-list1">
-     <ul>
-   <div class="footer-heading"><h2>COMPANY</h2>
-    <div class="ll0">
-        <li>About</li>
-        <li>Careers</li>
-        <li>Contact</li>
-    </div>
-</div> </ul> </div>
-    <div class="footer-list2">
-        <ul>
-            <div class="footer-heading"><h2>DISCOVER</h2>
-            <div class="ll0">
-                <li>Devopment Services</li>
-                <li>Engagements Models</li>
-                <li>Digital Media</li>
-            </div>
-        </div>  </ul> </div>
-        <div class="footer-list3">
-            <ul>
-                <div class="footer-heading">
-                    <h2>LEGAL</h2>
-                <div class="ll0">
-                    <li>Terms & Conditions</li>
-                    <li>Privacy Policy</li>
+                    <div class="learn">Learn more></div>
                 </div>
-            </div> </ul> </div>
-            <div class="footer-list4">
-                <ul>
-                <div class="footer-heading">
-                    <li><h2>(+1) 970 672 0070</h2></li>
-                    <li><h2>(+971) 04 587 6933</h2></li>
-                    <li><h2>(+92) 345 409 0775</h2></li>
-                    <div class="ll0">
-                   <li>info@intelliscene.com</li>
-                   <li><ion-icon name="logo-facebook"></ion-icon> <ion-icon name="logo-linkedin"></ion-icon> <ion-icon name="logo-instagram"></ion-icon> </li> </ul>
+            </div>
+            <br>
+            <br>
+            <br>
+            <br>
+            <!-- explore sevices -->
+            <div class="explore">
+                <h3>Explore more services></h3>
+            </div>
+            <br>
+            <br>
+            <br>
+            <br>
+            <!--clients  -->
+            <div class="clients">
+                <div class="clients-heading">
+                    <h4>Our Clients</h4>
+                </div>
+                <div class="client-line">
+                    <h1>We share our confidence and passion with.</h1>
+                </div>
+            </div>
+            <!-- company names -->
+            <div class="comapny-names"> <img src="https://www.intelliscence.com/wp-content/uploads/2020/11/honor.jpg"
+                    width="100px" alt=""> <img
+                    src="https://www.intelliscence.com/wp-content/uploads/2022/05/lakecitylogo-.png" width="100px"
+                    alt=""> <img src="https://www.intelliscence.com/wp-content/uploads/2022/05/peoplelogo.png"
+                    width="100px" alt=""> <img src="https://www.intelliscence.com/wp-content/uploads/2020/11/xinhua.jpg"
+                    width="100px" alt=""> <img
+                    src="https://www.intelliscence.com/wp-content/uploads/2020/11/netutils.jpg" width="100px" alt="">
+                <img src="https://www.intelliscence.com/wp-content/uploads/2022/05/mangla.png" width="100px" alt="">
+                <img src="https://www.intelliscence.com/wp-content/uploads/2020/11/pnip-1.jpg" width="100px" alt="">
+                <img src="https://www.intelliscence.com/wp-content/uploads/2020/11/spacelab.jpg" width="100px" alt="">
+                <img src="https://www.intelliscence.com/wp-content/uploads/2020/11/betterhomes.jpg" width="100px"
+                    alt=""> <img src="https://www.intelliscence.com/wp-content/uploads/2020/11/charcoal.jpg"
+                    width="100px" alt=""> <img src="https://www.intelliscence.com/wp-content/uploads/2020/11/genome.jpg"
+                    width="100px" alt="">
+                <li><ion-icon name="arrow-forward-circle-outline"></ion-icon></li>
+            </div>
+            <br>
+            <br>
+            <br>
+            <br>
+            <!-- 2nd last part  -->
+            <div class="question">
+                <div class="question-line">
+                    <h1>Need a talent to work for you directly?</h1>
+                    <div class="sub-question">
+                        <p>We offer team augmentation services to get your things done right, from right now. Hire a
+                            <br>fully dedicated team, a talent that fits your business idea.</p>
+                    </div>
+                    <div class="small-icons"><img
+                            src="https://www.intelliscence.com/wp-content/uploads/2020/11/mssql.png" width="70px"
+                            alt=""> <img src="https://www.intelliscence.com/wp-content/uploads/2020/11/python.png"
+                            width="70px" alt=""> <img
+                            src="https://www.intelliscence.com/wp-content/uploads/2020/11/laravel.png" width="70px"
+                            alt=""> <img src="https://www.intelliscence.com/wp-content/uploads/2020/11/mysql.png"
+                            width="70px" alt=""><img
+                            src="https://www.intelliscence.com/wp-content/uploads/2020/11/mongodb.png" width="70px"
+                            alt=""></div>
+                    <div class="button-question"><button>Discover More</button></div>
+                </div>
+                <div class="question-image"><img
+                        src="https://www.intelliscence.com/wp-content/uploads/2020/11/dedicatedteam.png" width="350px"
+                        alt=""></div>
+            </div>
+            <!-- tell bout urself -->
+            <div class="tell-urself">
+                <br>
+                <br>
+                <br>
+                <br>
+
+                <div class="last-heading">
+                    <h1>Tell us more about your project?</h1>
+                </div>
+                <div class="last-subheading">
+                    <p>Our expert will contact you to discuss your plans and goals</p>
+                </div>
+                <div class="last-button"><button>Lets Connect!</button></div>
+                <br>
+                <br>
+                <br>
+                <br>
+            </div>
+            <!-- webite footer -->
+            <footer>
+                <div class="main-footer">
+                    <br>
+                    <br>
+                    <br>
+                    <br>
+                    <br>
+
+                    <div class="footer-image"><img
+                            src="https://www.intelliscence.com/wp-content/uploads/2023/10/footer-logo-final@4x1.png"
+                            width="250px" alt=""></div>
+                    <div class="list">
+                        <div class="footer-list1">
+                            <ul>
+                                <div class="footer-heading">
+                                    <h2>COMPANY</h2>
+                                    <div class="ll0">
+                                        <li>About</li>
+                                        <li>Careers</li>
+                                        <li>Contact</li>
+                                    </div>
+                                </div>
+                            </ul>
+                        </div>
+                        <div class="footer-list2">
+                            <ul>
+                                <div class="footer-heading">
+                                    <h2>DISCOVER</h2>
+                                    <div class="ll0">
+                                        <li>Devopment Services</li>
+                                        <li>Engagements Models</li>
+                                        <li>Digital Media</li>
+                                    </div>
+                                </div>
+                            </ul>
+                        </div>
+                        <div class="footer-list3">
+                            <ul>
+                                <div class="footer-heading">
+                                    <h2>LEGAL</h2>
+                                    <div class="ll0">
+                                        <li>Terms & Conditions</li>
+                                        <li>Privacy Policy</li>
+                                    </div>
+                                </div>
+                            </ul>
+                        </div>
+                        <div class="footer-list4">
+                            <ul>
+                                <div class="footer-heading">
+                                    <li>
+                                        <h2>(+1) 970 672 0070</h2>
+                                    </li>
+                                    <li>
+                                        <h2>(+971) 04 587 6933</h2>
+                                    </li>
+                                    <li>
+                                        <h2>(+92) 345 409 0775</h2>
+                                    </li>
+                                    <div class="ll0">
+                                        <li>info@intelliscene.com</li>
+                                        <li><ion-icon name="logo-facebook"></ion-icon> <ion-icon
+                                                name="logo-linkedin"></ion-icon> <ion-icon
+                                                name="logo-instagram"></ion-icon> </li>
+                            </ul>
+                        </div>
                     </div>
                 </div>
-            </div>
-</div>
-<hr>
-<div class="copyright"><p>Copyrights © Intelliscence 2023. All Rights Reserved.</p></div> <div class="login"></div>   
- </div>
-</footer> 
-<script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
-<script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
-    </body>
-</section>
+                </div>
+                <hr>
+                <div class="copyright">
+                    <p>Copyrights © Intelliscence 2023. All Rights Reserved.</p>
+                </div>
+                <div class="login"></div>
+                </div>
+            </footer>
+            <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+            <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+        </body>
+    </section>
 
 
 </body>
