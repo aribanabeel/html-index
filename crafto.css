@@ -64,7 +64,7 @@
     background-color: black;
     width: 300px;
     height: 30px;
-   border-radius: 7%;
+   border-radius: 30px;
    padding: 5px;
    margin-top: 40px;
    margin-left: 30px;
@@ -556,7 +556,8 @@ strong{
     background-size: cover;
     background-color: whitesmoke;
     padding: 20px; 
-    margin-top: 150px;  
+    margin-top: 100px;
+    padding-bottom: 150px;
 }
 .trusted{
     text-align: center;
@@ -581,7 +582,7 @@ strong{
 .project-mon{
     block-size: 200px;
     border: 1px solid transparent;
-    width: 300px;
+    width: 350px;
     height: 180px;
     background-color: white;
     border-radius: 10px;
@@ -589,7 +590,7 @@ strong{
 .dropbox{
     block-size: 200px;
     border: 1px solid transparent;
-    width: 300px;
+    width: 350px;
     height: 180px;
     background-color: white;
     border-radius: 10px;
@@ -597,7 +598,7 @@ strong{
 .slack{
     block-size: 200px;
     border: 1px solid transparent;
-    width: 300px;
+    width: 350px;
     height: 180px;
     background-color: white;
     border-radius: 10px;
@@ -609,8 +610,8 @@ strong{
     gap: 100px;
 }
 .ram{
-    margin-top: 30px ;
-    margin-left: 20px;
+    margin-top: 50px ;
+    margin-left: 40px;
 }
 .dark-gray{
     text-align: center;
@@ -620,4 +621,122 @@ strong{
 }
 .storage1{
     color: rgb(31, 31, 72);
+}
+.section-12{
+    margin-top: 100px;
+    width: 100%;
+    height: 100%;
+    background-image: url(	https://craftohtml.themezaa.com/images/demo-it-business-08.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    padding: 20px;  
+    margin-top: 0px;
+    border-radius: 1%;
+}
+.something{
+    display: flex;
+    gap:2px;
+    margin-top: 150px;
+    border: transparent;
+    width: 380px;
+    height: 40px;
+    background-color: black;
+    opacity: .5;
+    border-radius: 30px;
+    color: whitesmoke;
+   margin-left: 380px;
+   padding: 10px;
+}
+.outline{
+    font-size: 20px;
+}
+.creative-solutions{
+    margin-top: 50px;
+    text-align: center;
+    color: whitesmoke;
+    font-size: 80px;
+}
+.in-mind{
+    background-image: linear-gradient(to right,rgb(80, 80, 189), rgb(202, 44, 44));
+    block-size: 60px;
+    width: 300px;
+  border-radius: 30px;
+  color: azure;
+  font-size: 15px;
+  border: transparent;
+  margin-left: 420px;
+  margin-top: 50px;
+  margin-bottom: 100px;
+ 
+
+}
+.in-mind:hover{
+    background-color: azure;
+color: black;
+animation: 3s linear 0s infinite  reverse myscale;
+}
+.section-13{
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 17px;
+    gap: 10px;
+}
+.footer-1{
+    display: flex;
+    flex-direction: column;
+   
+}
+.team-gray{
+   color: grey;
+   margin-top: 10px;
+}
+.team-blue{
+    color: rgb(19, 19, 39);
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+.footer-list{
+    list-style: none;
+}
+.black{
+    color: black;
+}
+.iconic-mail{
+ margin-left: 30px;
+ color: black;
+  font-size: 20px;
+}
+.team-mail{
+    color: grey;
+    margin-top: 10px;
+    margin-top:40px;
+
+}
+
+
+  
+.last-part{ 
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 50px;
+}
+.proudly2024{
+    color: grey;
+    margin-right: 300px;
+}
+.themezaa{
+    color:rgb(20, 20, 45) ;
+    text-decoration: underline;
+}
+.privacy-policy{ 
+    display: flex;
+    gap: 30px;
+    list-style: none;
+    color: grey;
+    font-size: 15px;
+    padding-left: 200px;
 }

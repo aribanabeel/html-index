@@ -1,4 +1,5 @@
-       // input four numbers and display sum of these 
+                        //  JavaSCRIPT assignment no 1
+      // input four numbers and display sum of these 
        let sum1 = 5;
        let sum2 = 9;
        let sum3 = 16;
@@ -30,7 +31,7 @@
        // a painter wants to know the amount of paint needed to paint only the four walls. Each wall has same rectangular area. the choosen paint covers 100 square feet per gallon
         let width1 = 9;
         let height1 = 17;
-        let areaof1wall = width1 + height1;
+        let areaof1wall = width1 * height1;
         let areaof4walls = areaof1wall*4;
         let gallon = 100;
         let totalpaint = areaof4walls/100;
