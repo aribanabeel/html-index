@@ -11,6 +11,7 @@
                                 
                                    function calcdays(n1){
                                     let num = n1;
+                                    if(num === 1){console.log("monday");}
                                        else if (num === 2){ console.log("tuesday");}
                                        else if (num === 3){ console.log("wednesday");}
                                        else if (num === 4){ console.log("thursday");}
