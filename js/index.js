@@ -6,7 +6,7 @@
        let totalSUM = sum1 + sum2 + sum3 + sum4;
        console.log( "Total sum is:", totalSUM);
            // input marks of five subjects of a student and calculate its average 
-        let num1 = 99;
+        let num1 = 100;
         let num2 = 44;
         let num3 = 67;
         let num4 = 12;
