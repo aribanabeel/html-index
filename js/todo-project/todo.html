@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./todo.css">
+</head>
+<body>
+    <div class="container">
+        <header class="todo-list">
+            <h1 class="title">TODO LIST</h1>
+            <form  class="search" >
+                <input class="first-bar todolist2" type="text" name="search" placeholder="Serach Todo">
+            </form>
+        </header>
+        <ul id="listoftodo" class="listtodo">
+            <!-- <li class="grocery-todo">
+                <span>have to go for shopping</span>
+                <ion-icon class="trash" name="trash-sharp"></ion-icon>
+            </li> -->
+        </ul>
+     <form class="form-create add sumbit-text">
+        <label class="name-enter">Add new Todo-list</label>
+        <br>
+        <input class="create-input" type="text" name="add">
+        <br>
+        <div class="submit-text">
+            <button class="btn" type="submit">Create</button>
+        </div>
+     </form>
+     <form class="form-edit">
+        <label class="name-enter">Edit Todo-list</label> 
+        <br>
+        <input class="edit-input" type="text" name="add">
+        <br>
+        <div class="submit-text">
+            <button class="btn" type="submit">Edit</button>
+        </div>
+     </form>
+        <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    </div>
+    <script src="./todo.js"></script>
+ 
+</body>
+</html>
