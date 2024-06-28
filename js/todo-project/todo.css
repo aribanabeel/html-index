@@ -1,0 +1,85 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgba(226, 200, 200, 0.71);
+    text-align: center;
+    margin-top: 150px;
+    margin-bottom: 100px;
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 30px;
+}
+.title{
+    margin-top: -70px;
+}
+.first-bar{
+    
+    width: 300px;
+    height: 30px;
+    padding-left: 5px;
+    border: 1px solid rgb(35, 35, 53);
+    border-radius: 5px;
+}
+/* .listoftodo{
+    display: flex;
+    justify-content: space-around;
+} */
+.grocery-todo{
+    list-style: none;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 460px;
+    color: black;
+    font-size: 15px;
+    display: flex;
+    justify-content: space-around;
+    /* gap: 110px; */
+    padding-top: 5px;
+    width: 300px;
+    height: 30px;
+    background-color:rgba(100, 93, 89, 0.9) ;
+    
+    border-radius: 5px;
+}
+.trash{
+    color: black;
+    display: flex;
+    justify-content: end;
+}
+.form-create{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.create-input{
+    margin-top: 20px;
+    margin-bottom: 30px;
+    width: 260px;
+    height: 30px;
+    padding-left: 10px;
+    border-radius: 5px;
+}
+.edit-input{
+    margin-top: 20px;
+    margin-bottom: 30px;
+    width: 260px;
+    height: 30px;
+    padding-left: 10px;
+    border-radius: 5px;
+}
+.btn{
+    width: 100px;
+    height: 30px;
+}
+.btn:hover{
+    color: white;
+    background-color: rgba(37, 33, 22, 0.845);
+}
+input[type="text"],
+input[type="text"]:focus {
+  color: #fff;
+  border: none;
+  background: rgba(0, 0, 0, 0.2);
+  max-width: 400px;
+} 
